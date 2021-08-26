@@ -4,7 +4,8 @@
   "description": "",
   "main": "server.js",
   "scripts": {
-    "devStart" : "nodemon main",
+    "devStart": "nodemon main",
+    "devStartAuth": "nodemon authServer.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "Luana Lessa",
